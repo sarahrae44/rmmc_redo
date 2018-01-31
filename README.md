@@ -6,4 +6,4 @@ I know that I can make this so much interesting to look at and possibly generate
 
 Time spent:
 
-1/30: code: .5
+1/30: code: 1.75
