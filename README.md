@@ -7,3 +7,5 @@ I know that I can make this so much more interesting to look at and possibly gen
 Time spent:
 
 1/30: code: 1.75
+
+1/31: styling: .25
