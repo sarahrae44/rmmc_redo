@@ -75,6 +75,12 @@ h1 {
   padding: 10px 10px 0 15px;
 }
 
+h3 {
+  font-size: 24px;
+  color: #F79E6B;
+  padding: 0 10px 0 15px;
+}
+
 p {
   color: #5B584F;
   padding: 10px 20px 0 20px;;
@@ -162,4 +168,10 @@ p {
    to {
      opacity: 1
    }
+ }
+
+ #tips {
+   text-align: left;
+   padding: 0 20px;
+   color: #5B584F;
  }
