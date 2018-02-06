@@ -10,4 +10,4 @@ Time spent:
 
 1/31: styling: .25
 
-2/5: code: .25; styling: .25
+2/5: code: 1.75; styling: 1.5; images: 1
