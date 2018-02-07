@@ -12,4 +12,4 @@ Time spent:
 
 2/5: code: 1.75; styling: 1.75; images: 1.25
 
-2/6: images: .75
+2/6: code: .25; images: .75
