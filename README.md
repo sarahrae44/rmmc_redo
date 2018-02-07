@@ -11,3 +11,5 @@ Time spent:
 1/31: styling: .25
 
 2/5: code: 1.75; styling: 1.75; images: 1.25
+
+2/6: images: .75
