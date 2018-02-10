@@ -19,3 +19,5 @@ Time spent:
 2/8: photos: .5
 
 2/9: photos: 1
+
+2/10: photos: .25
