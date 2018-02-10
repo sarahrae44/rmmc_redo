@@ -17,3 +17,5 @@ Time spent:
 2/7: code: .5; images: 1.25
 
 2/8: photos: .5
+
+2/9: photos: 1
