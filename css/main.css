@@ -241,7 +241,10 @@ a:hover {
   color: #92A78C; }
 
 nav {
-  background-color: #5B584F; }
+  background-color: #5B584F;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; }
 
 ul {
   padding: 0 0 0 15px;
