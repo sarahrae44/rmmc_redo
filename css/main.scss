@@ -1,5 +1,6 @@
 @import "bourbon/bourbon";
 @import "base/base";
+@import "fonts";
 
 body {
   background-color: #E0D5AD;
@@ -60,11 +61,22 @@ a:hover {
   color: #92A78C;
 }
 
-nav {
-  background-color: #5B584F;
+header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+
+.headerContainer {
+  background-color: #E0D5AD;
+}
+
+nav {
+  background-color: #5B584F;
+  margin-top: -1em;
+  // position: -webkit-sticky;
+  // position: sticky;
+  // top: 3em;
 }
 
 ul {
@@ -73,15 +85,17 @@ ul {
 }
 
 h1 {
+  font-family: $londrina-shadow;
   font-size: 36px;
   color: #5B584F;
   padding: 10px 10px 0 15px;
+  background-color: #E0D5AD;
 }
 
 h3 {
   font-size: 24px;
   color: #F79E6B;
-  padding: 0 10px 0 15px;
+  padding: 10px 10px 0 15px;
 }
 
 p {
@@ -97,6 +111,7 @@ p {
   max-width: 600px;
   position: relative;
   margin: auto;
+  z-index: -1;
 }
 
 .mySlides {

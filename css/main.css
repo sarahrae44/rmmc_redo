@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Londrina+Shadow");
 button, [type='button'], [type='reset'], [type='submit'] {
   appearance: none;
   background-color: #1565c0;
@@ -240,25 +241,33 @@ a {
 a:hover {
   color: #92A78C; }
 
-nav {
-  background-color: #5B584F;
+header {
   position: -webkit-sticky;
   position: sticky;
   top: 0; }
+
+.headerContainer {
+  background-color: #E0D5AD; }
+
+nav {
+  background-color: #5B584F;
+  margin-top: -1em; }
 
 ul {
   padding: 0 0 0 15px;
   text-align: center; }
 
 h1 {
+  font-family: "Londrina Shadow", cursive;
   font-size: 36px;
   color: #5B584F;
-  padding: 10px 10px 0 15px; }
+  padding: 10px 10px 0 15px;
+  background-color: #E0D5AD; }
 
 h3 {
   font-size: 24px;
   color: #F79E6B;
-  padding: 0 10px 0 15px; }
+  padding: 10px 10px 0 15px; }
 
 p {
   color: #5B584F;
@@ -270,7 +279,8 @@ p {
 .slideshow-container {
   max-width: 600px;
   position: relative;
-  margin: auto; }
+  margin: auto;
+  z-index: -1; }
 
 .mySlides {
   display: none; }
