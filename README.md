@@ -23,3 +23,5 @@ Time spent:
 2/10: photos: .25
 
 2/14: code: .25
+
+2/15: code: .25
