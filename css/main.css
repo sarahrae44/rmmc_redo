@@ -346,4 +346,14 @@ p {
   padding: 0 20px;
   color: #5B584F; }
 
+input:invalid {
+  background-color: #ffdddd; }
+
+input:valid {
+  background-color: #ddffdd; }
+
+input:required {
+  border-color: #800000;
+  border-width: 3px; }
+
 /*# sourceMappingURL=main.css.map */

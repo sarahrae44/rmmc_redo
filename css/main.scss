@@ -170,26 +170,40 @@ p {
   animation-name: fade;
   animation-duration: 1.5s;
 }
- @-webkit-keyframes fade {
+
+@-webkit-keyframes fade {
    from {
      opacity: .4
    }
    to {
      opacity: 1
    }
- }
+}
 
- @keyframes fade {
+@keyframes fade {
    from {
      opacity: .4
    }
    to {
      opacity: 1
    }
- }
+}
 
- #tips {
+#tips {
    text-align: left;
    padding: 0 20px;
    color: #5B584F;
+}
+
+input:invalid {
+   background-color: #ffdddd;
  }
+
+input:valid {
+  background-color: #ddffdd;
+}
+
+input:required {
+  border-color: #800000;
+  border-width: 3px;
+}
