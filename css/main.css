@@ -213,7 +213,7 @@ body {
   z-index: 2; }
 
 .photobanner {
-  height: 400px;
+  height: 440px;
   width: 2000px;
   margin-top: 20px;
   margin-bottom: 20px; }
@@ -223,7 +223,8 @@ body {
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
-  transition: all 0.2s ease; }
+  transition: all 0.2s ease;
+  margin: 20px 0; }
 
 .photobanner img:hover {
   -webkit-transform: scale(1.1);
