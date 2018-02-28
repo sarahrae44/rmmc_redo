@@ -25,3 +25,9 @@ Time spent:
 2/14: code: .25
 
 2/15: code: .25
+
+2/23: code: 1.5; images: 1.5
+
+2/27: code: .25
+
+2/28: code: .25
