@@ -174,16 +174,68 @@ nav {
   // top: 3em;
 }
 
+#menu-mobile {
+	display: none;
+	width: 100%;
+	height: 40px;
+  padding: 8px;
+  text-align: center;
+}
+
+// a:hover#menu-mobile {
+// 	border-radius: 4px 4px 0 0;
+// }
+
 ul {
   padding: 0 0 0 15px;
   text-align: center;
+}
+
+@media (max-width: 955.98px) {
+  h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  #menu-mobile {
+		display:inline-block;
+	}
+
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 10px;
+		background: #5B584F;
+		// border: 5px solid #444;
+		left: 25%;
+		top: 104px;
+		width: 50%;
+		// border-radius: 4px 0 4px 4px;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	nav:hover ul {
+		display: block;
+	}
+}
+
+@media (max-width: 455.98px) {
+  h1 {
+    font-size: 24px;
+  }
 }
 
 h1 {
   font-family: $londrina-shadow;
   font-size: 36px;
   color: #5B584F;
-  padding: 10px 10px 0 15px;
+  padding: 10px 10px 0 10px;
   background-color: #E0D5AD;
 }
 
@@ -302,3 +354,53 @@ input:required {
   border-color: #800000;
   border-width: 3px;
 }
+
+//media queries
+
+@media (max-width: 455.98px) {
+  h1 {
+    font-size: 32px;
+    padding: 10px 0;
+  }
+}
+
+// @media (min-width: 455.99px) and (max-width: 955.98px) {
+//   h1 {
+//     font-size: 32px;
+//   }
+// }
+
+@media (max-width: 955.98px) {
+  h1 {
+    text-align: center;
+  }
+
+  #menu-mobile {
+		display:inline-block;
+	}
+
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 10px;
+		background: #5B584F;
+		// border: 5px solid #444;
+		left: 25%;
+		top: 104px;
+		width: 50%;
+		// border-radius: 4px 0 4px 4px;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	nav:hover ul {
+		display: block;
+	}
+}
+
+// end mediq queries
