@@ -482,6 +482,9 @@ input:required {
     margin: 0; }
 
   nav:hover ul {
-    display: block; } }
+    display: block; }
+
+  #container {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
