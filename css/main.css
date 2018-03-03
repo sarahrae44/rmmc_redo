@@ -209,8 +209,7 @@ body {
   width: 1000px;
   overflow: hidden;
   margin: 50px auto;
-  background: #E0D5AD;
-  z-index: 2; }
+  background: #E0D5AD; }
 
 .photobanner {
   height: 440px;
@@ -278,8 +277,7 @@ body {
   position: absolute;
   background-color: #92A78C;
   min-width: 140px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  z-index: 1; }
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
 
 .dropdown-content a {
   color: #F7CD82;
@@ -308,7 +306,8 @@ a:hover {
 header {
   position: -webkit-sticky;
   position: sticky;
-  top: 0; }
+  top: 0;
+  z-index: 10000; }
 
 .headerContainer {
   background-color: #E0D5AD; }
@@ -368,8 +367,7 @@ p {
 .slideshow-container {
   max-width: 600px;
   position: relative;
-  margin: auto;
-  z-index: -1; }
+  margin: auto; }
 
 .mySlides {
   display: none; }
@@ -482,6 +480,9 @@ input:required {
     display: block; }
 
   .photo-container {
+    display: block; }
+
+  .photo-container img {
     display: block; } }
 
 /*# sourceMappingURL=main.css.map */
