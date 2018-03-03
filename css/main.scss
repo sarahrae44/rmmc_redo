@@ -18,7 +18,7 @@ body {
   overflow: hidden;
   margin: 50px auto;
   background: #E0D5AD;
-  z-index: 2
+  // z-index: 2
 }
 
 .photobanner {
@@ -114,7 +114,7 @@ body {
   background-color: #92A78C;
   min-width: 140px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  z-index: 1;
+  // z-index: 1;
 }
 
 .dropdown-content a {
@@ -155,6 +155,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 10000;
 }
 
 .headerContainer {
@@ -237,7 +238,7 @@ p {
   max-width: 600px;
   position: relative;
   margin: auto;
-  z-index: -1;
+  // z-index: -1;
 }
 
 .mySlides {
@@ -393,6 +394,10 @@ input:required {
   }
 
   .photo-container {
+    display: block;
+  }
+
+  .photo-container img {
     display: block;
   }
 }
