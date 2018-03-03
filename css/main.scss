@@ -65,7 +65,6 @@ body {
  100% {
     margin-left: -2125px;
  }
-
 }
 
 @-moz-keyframes bannermove {
@@ -75,7 +74,6 @@ body {
  100% {
    margin-left: -2125px;
  }
-
 }
 
 @-webkit-keyframes "bannermove" {
@@ -85,7 +83,6 @@ body {
  100% {
    margin-left: -2125px;
  }
-
 }
 
 @-ms-keyframes "bannermove" {
@@ -95,7 +92,6 @@ body {
  100% {
    margin-left: -2125px;
  }
-
 }
 
 @-o-keyframes "bannermove" {
@@ -105,7 +101,6 @@ body {
  100% {
    margin-left: -2125px;
  }
-
 }
 
 .dropdown {
@@ -191,46 +186,6 @@ ul {
   text-align: center;
 }
 
-@media (max-width: 955.98px) {
-  h1 {
-    text-align: center;
-    font-size: 32px;
-  }
-
-  #menu-mobile {
-		display:inline-block;
-	}
-
-	nav ul, nav:active ul {
-		display: none;
-		position: absolute;
-		padding: 10px;
-		background: #5B584F;
-		// border: 5px solid #444;
-		left: 25%;
-		top: 104px;
-		width: 50%;
-		// border-radius: 4px 0 4px 4px;
-	}
-
-	nav li {
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-		margin: 0;
-	}
-
-	nav:hover ul {
-		display: block;
-	}
-}
-
-@media (max-width: 455.98px) {
-  h1 {
-    font-size: 24px;
-  }
-}
-
 h1 {
   font-family: $londrina-shadow;
   font-size: 36px;
@@ -242,12 +197,36 @@ h1 {
 h3 {
   font-size: 24px;
   color: #F79E6B;
-  padding: 10px 10px 0 15px;
+  padding: 10px 10px 0 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+.text-container {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.text-container p {
+  padding: 10px;
+}
+
+.text-container h4 {
+  padding: 10px 0 0 10px;
+}
+
+.photo-container {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.photo-container img {
+  padding: 10px;
 }
 
 p {
   color: #5B584F;
-  padding: 10px 20px 0 20px;;
+  padding: 10px 20px 0 0;
 }
 
 * {
@@ -370,9 +349,12 @@ input:required {
 //   }
 // }
 
+// start media queries
+
 @media (max-width: 955.98px) {
   h1 {
     text-align: center;
+    font-size: 32px;
   }
 
   #menu-mobile {
@@ -402,8 +384,16 @@ input:required {
 		display: block;
 	}
 
-  #container{
+  #container {
     display: none;
+  }
+
+  .text-container {
+    display: block;
+  }
+
+  .photo-container {
+    display: block;
   }
 }
 
