@@ -13,6 +13,18 @@ body {
 //   border: none;
 // }
 
+#mobile-image-container {
+  visibility: hidden;
+}
+
+#mobile-image-container img {
+  padding: .2em;
+}
+
+// .mobile-grid-image {
+//   padding: .2em;
+// }
+
 #container {
   width: 1000px;
   overflow: hidden;
@@ -457,10 +469,15 @@ input:required {
     display: none;
   }
 
+  #mobile-image-container {
+    visibility: visible;
+  }
+
   .overlay-text {
     font-size: .8em;
     line-height: 1.1em;
   }
+
 }
 
 // end mediq queries

@@ -205,6 +205,12 @@ hr {
 body {
   background-color: #E0D5AD; }
 
+#mobile-image-container {
+  visibility: hidden; }
+
+#mobile-image-container img {
+  padding: .2em; }
+
 #container {
   width: 1000px;
   overflow: hidden;
@@ -516,6 +522,9 @@ input:required {
 
   #container {
     display: none; }
+
+  #mobile-image-container {
+    visibility: visible; }
 
   .overlay-text {
     font-size: .8em;
