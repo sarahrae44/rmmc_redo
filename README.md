@@ -36,4 +36,4 @@ Time spent:
 
 3/4: code: 3
 
-3/5: code: 1.5
+3/5: code: 2.25
