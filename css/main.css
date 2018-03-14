@@ -203,7 +203,7 @@ hr {
   margin: 1.5em 0; }
 
 body {
-  background-color: #E0D5AD; }
+  background-color: #d7d2cc; }
 
 #mobile-image-container {
   display: none; }
@@ -215,7 +215,7 @@ body {
   width: 1000px;
   overflow: hidden;
   margin: 50px auto;
-  background: #E0D5AD; }
+  background: #d7d2cc; }
 
 .photobanner {
   height: 440px;
@@ -280,18 +280,6 @@ hr {
   height: 3px;
   background-color: grey; }
 
-.quote-box {
-  background-color: #E0D5AD;
-  position: relative; }
-
-.quote-box p {
-  margin: 10px;
-  padding: 10px;
-  color: #5B584F;
-  font-size: 1.2em;
-  line-height: 1.3em;
-  text-align: center; }
-
 .quote-box .quoted {
   display: block;
   font-size: 1.2em;
@@ -308,29 +296,6 @@ hr {
   display: inline-block;
   padding: -20px 0 0 0; }
 
-.dropdown {
-  position: relative;
-  display: inline-block; }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #92A78C;
-  min-width: 140px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
-
-.dropdown-content a {
-  color: #F7CD82;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block; }
-
-.dropdown-content a:hover {
-  background-color: #5B584F; }
-
-.dropdown:hover .dropdown-content {
-  display: block; }
-
 li {
   display: inline-block;
   padding: 10px 30px 10px 0;
@@ -338,10 +303,12 @@ li {
 
 a {
   text-decoration: none;
-  color: #F7CD82; }
+  color: white; }
 
 a:hover {
-  color: #92A78C; }
+  color: #d7d2cc;
+  text-decoration: none;
+  font-weight: bold; }
 
 header {
   position: -webkit-sticky;
@@ -350,11 +317,11 @@ header {
   z-index: 10000; }
 
 .headerContainer {
-  background-color: #E0D5AD; }
+  background-color: white; }
 
 nav {
-  background-color: #5B584F;
-  margin-top: -1em; }
+  background-color: #4183ac;
+  margin-top: -.5em; }
 
 #menu-mobile {
   display: none;
@@ -370,13 +337,13 @@ ul {
 h1 {
   font-family: "Londrina Shadow", cursive;
   font-size: 36px;
-  color: #5B584F;
+  color: #93877a;
   padding: 10px 10px 0 10px;
-  background-color: #E0D5AD; }
+  background-color: white; }
 
 h3 {
   font-size: 24px;
-  color: #F79E6B;
+  color: #4183ac;
   padding: 10px 10px 0 0; }
 
 h4 {
@@ -409,7 +376,7 @@ h4 {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #E0D5AD; }
+  background-color: white; }
 
 .photo-container:hover .overlay {
   opacity: 0.8; }
@@ -439,7 +406,7 @@ h4 {
     visibility: visible; }
 
 p {
-  color: #5B584F;
+  color: black;
   padding: 10px 20px 0 0; }
 
 * {
@@ -540,7 +507,7 @@ input:required {
     display: none;
     position: absolute;
     padding: 10px;
-    background: #5B584F;
+    background: #4183ac;
     left: 25%;
     top: 104px;
     width: 50%; }
