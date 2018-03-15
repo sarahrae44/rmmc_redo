@@ -491,6 +491,9 @@ input:required {
   border-color: #800000;
   border-width: 3px; }
 
+.paragraph-padding {
+  padding-top: 2em; }
+
 @media (max-width: 455.98px) {
   h1 {
     font-size: 32px;
