@@ -116,10 +116,12 @@ body {
 }
 
 hr {
-  color: grey;
+  color: white;
   border: none;
   height: 3px;
-  background-color: grey;
+  background-color: white;
+  width: 80%;
+  margin: 2em auto;
 }
 
 // .quote-box {
@@ -255,7 +257,7 @@ h1 {
 h3 {
   font-size: 24px;
   color: #4183ac;
-  padding: 10px 10px 0 0;
+  padding: 20px 10px 0 0;
 }
 
 h4 {
@@ -454,6 +456,15 @@ input:required {
 
 .paragraph-padding {
   padding-top: 2em;
+}
+
+button {
+  background-color: #4183ac;
+  margin: 0 auto;
+}
+
+input {
+    padding-bottom: 0;
 }
 
 //media queries
