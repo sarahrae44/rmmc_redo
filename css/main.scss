@@ -475,6 +475,11 @@ input {
   display: block;
 }
 
+.form-group input {
+  background-color: white;
+  border: 0;
+}
+
 //media queries
 
 @media (max-width: 455.98px) {
