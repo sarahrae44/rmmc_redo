@@ -509,6 +509,10 @@ input {
 .desktop-cats-container {
   display: block; }
 
+.form-group input {
+  background-color: white;
+  border: 0; }
+
 @media (max-width: 455.98px) {
   h1 {
     font-size: 32px;
