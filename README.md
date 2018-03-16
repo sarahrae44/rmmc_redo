@@ -43,3 +43,5 @@ Time spent:
 3/14: code: .5
 
 3/15: code: .5
+
+3/16: code: 1.5
