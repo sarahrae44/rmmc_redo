@@ -541,12 +541,46 @@ input {
 	}
 
   #container {
-    display: none;
+    width: 480px;
+    overflow: hidden;
+    margin: 50px auto;
+    // background: #d7d2cc;
   }
 
-  #mobile-image-container {
-    display: block;
+  .photobanner {
+    height: 200px;
+    width: 880px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
+
+  .photobanner img {
+    width: 280px;
+  	-webkit-transition: all 0.2s ease;
+  	-moz-transition: all 0.2s ease;
+  	-o-transition: all 0.2s ease;
+  	-ms-transition: all 0.2s ease;
+  	transition: all 0.2s ease;
+    margin: 20px 0;
+  }
+
+  .photobanner img:hover {
+  	-webkit-transform: scale(1.1);
+  	-moz-transform: scale(1.1);
+  	-o-transform: scale(1.1);
+  	-ms-transform: scale(1.1);
+  	transform: scale(1.1);
+  	cursor: pointer;
+
+  	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  }
+
+  //
+  // #mobile-image-container {
+  //   display: block;
+  // }
 
   .overlay-text {
     font-size: .8em;
