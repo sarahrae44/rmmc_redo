@@ -503,10 +503,20 @@ button {
 input {
   padding-bottom: 0; }
 
+.mobile-cats-container {
+  display: none; }
+
+.desktop-cats-container {
+  display: block; }
+
 @media (max-width: 455.98px) {
   h1 {
     font-size: 32px;
     padding: 10px 0; } }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .overlay-text {
+    font-size: .7em;
+    line-height: 1em; } }
 @media (max-width: 768px) {
   h1 {
     text-align: center;
@@ -541,6 +551,12 @@ input {
 
   .overlay-text {
     font-size: .8em;
-    line-height: 1.1em; } }
+    line-height: 1.1em; }
+
+  .mobile-cats-container {
+    display: block; }
+
+  .desktop-cats-container {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

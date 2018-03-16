@@ -467,6 +467,14 @@ input {
     padding-bottom: 0;
 }
 
+.mobile-cats-container {
+  display: none;
+}
+
+.desktop-cats-container {
+  display: block;
+}
+
 //media queries
 
 @media (max-width: 455.98px) {
@@ -483,6 +491,13 @@ input {
 // }
 
 // start media queries
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .overlay-text {
+    font-size: .7em;
+    line-height: 1em;
+  }
+}
 
 @media (max-width: 768px) {
   // .text-container {
@@ -538,6 +553,14 @@ input {
     line-height: 1.1em;
   }
 
+  .mobile-cats-container {
+    display: block;
+  }
+
+  .desktop-cats-container {
+    display: none;
+  }
 }
+
 
 // end mediq queries
