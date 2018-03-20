@@ -56,3 +56,5 @@ shorten content on some pages
 3/15: code: .5
 
 3/16: code: 1.5
+
+3/20: code: 1.25; image: .25
