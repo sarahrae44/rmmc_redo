@@ -115,6 +115,25 @@ body {
  }
 }
 
+@-webkit-keyframes fade {
+   from {
+     opacity: .4
+   }
+   to {
+     opacity: 1
+   }
+}
+
+@keyframes fade {
+   from {
+     opacity: .4
+   }
+   to {
+     opacity: 1
+   }
+}
+
+
 hr {
   color: white;
   border: none;
@@ -417,22 +436,29 @@ p {
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
-   from {
-     opacity: .4
-   }
-   to {
-     opacity: 1
-   }
+footer {
+  background-color: #4183ac;
+  margin-top: 1em;
+  position:sticky;
 }
 
-@keyframes fade {
-   from {
-     opacity: .4
-   }
-   to {
-     opacity: 1
-   }
+.address {
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.social {
+  padding: 1em 0;
+  // width: 50%;
+  // margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.social img {
+  padding: .5em;
+  max-width: 50px;
 }
 
 #tips {
@@ -597,6 +623,10 @@ input {
   }
 
   .desktop-cats-container {
+    display: none;
+  }
+
+  .fixed-bottom {
     display: none;
   }
 }
