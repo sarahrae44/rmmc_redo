@@ -9,7 +9,7 @@ Notes:
 3/16 To-dos:
 * add footer
 * shorten content on some pages
-~~ * optimize images ~~
+~~* optimize images~~
 
 Time spent:
 
