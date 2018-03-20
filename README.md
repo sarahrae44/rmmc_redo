@@ -5,6 +5,7 @@ This project is a re-do of a site I found when trying to find Maine Coon breeder
 I know that I can make this so much more interesting to look at and possibly generate more web traffic.
 
 Notes:
+
 3/16 To-dos: 
 * add footer
 * shorten content on some pages
