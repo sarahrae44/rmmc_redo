@@ -7,10 +7,10 @@ I know that I can make this so much more interesting to look at and possibly gen
 Notes:
 
 3/16 To-dos:
-* add footer
-* shorten content on some pages
+add footer
+shorten content on some pages
 
-~~* optimize images~~
+~~optimize images~~
 
 Time spent:
 
