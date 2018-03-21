@@ -8,7 +8,7 @@ I know that I can make this so much more interesting to look at and possibly gen
 
 3/16 To-dos:
 
-add footer
+~~add footer~~
 
 shorten content on some pages
 
@@ -58,3 +58,5 @@ shorten content on some pages
 3/16: code: 1.5
 
 3/20: code: 1.25; image: .25
+
+3/21: code: 1
