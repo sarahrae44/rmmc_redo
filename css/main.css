@@ -203,7 +203,16 @@ hr {
   margin: 1.5em 0; }
 
 body {
-  background-color: #d7d2cc; }
+  background-color: #d7d2cc;
+  display: flex;
+  flex-direction: column; }
+
+html, body {
+  height: 100%; }
+
+main {
+  flex: 1 0 auto;
+  padding-bottom: 3em; }
 
 #mobile-image-container {
   display: none; }
@@ -291,6 +300,13 @@ hr {
   background-color: white;
   width: 80%;
   margin: 2em auto; }
+
+.quote-box {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: .2em; }
+
+.quote {
+  padding: 1em; }
 
 .quote-box .quoted {
   display: block;
@@ -480,8 +496,7 @@ p {
 
 footer {
   background-color: #4183ac;
-  margin-top: 1em;
-  position: sticky; }
+  flex-shrink: 0; }
 
 .address {
   color: white;
@@ -605,9 +620,6 @@ input {
     display: block; }
 
   .desktop-cats-container {
-    display: none; }
-
-  .fixed-bottom {
     display: none; } }
 
 /*# sourceMappingURL=main.css.map */
