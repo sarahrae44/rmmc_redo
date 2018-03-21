@@ -4,7 +4,19 @@
 
 body {
   background-color: #d7d2cc;
+  display: flex;
+  flex-direction: column;
 }
+
+html, body {
+  height: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+  padding-bottom: 3em;
+}
+
 // .dropbtn {
 //   background-color: #4CAF50;
 //   color: white;
@@ -143,10 +155,16 @@ hr {
   margin: 2em auto;
 }
 
-// .quote-box {
-//   background-color: white;
-//   position: relative;
-// }
+.quote-box {
+  background-color: rgba(255, 255, 255, 0.6);
+  // position: relative;
+  margin: .2em;
+}
+
+.quote {
+  padding: 1em;
+}
+
 //
 // .quote-box p {
 //   // border: solid grey 2px;
@@ -438,8 +456,9 @@ p {
 
 footer {
   background-color: #4183ac;
-  margin-top: 1em;
-  position:sticky;
+  // margin-top: 1em;
+  // position: sticky;
+  flex-shrink: 0;
 }
 
 .address {
@@ -626,8 +645,9 @@ input {
     display: none;
   }
 
-  .fixed-bottom {
-    display: none;
+  main {
+    // margin-bottom: 15em;
+    // flex: 1 0 auto;
   }
 }
 
