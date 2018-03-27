@@ -10,7 +10,7 @@ I know that I can make this so much more interesting to look at and possibly gen
 
 ~~add footer~~
 
-shorten content on some pages
+~~shorten content on some pages~~
 
 ~~optimize images~~
 
@@ -60,3 +60,5 @@ shorten content on some pages
 3/20: code: 1.25; image: .25
 
 3/21: code: 1
+
+3/27: code: 1.75
