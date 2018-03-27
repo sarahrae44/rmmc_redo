@@ -546,6 +546,9 @@ input {
   background-color: white;
   border: 0; }
 
+.desktop-hidden {
+  display: none; }
+
 @media (max-width: 455.98px) {
   h1 {
     font-size: 32px;
@@ -619,6 +622,12 @@ input {
     display: block; }
 
   .desktop-cats-container {
-    display: none; } }
+    display: none; }
+
+  .desktop-hidden {
+    visibility: visible; }
+
+  .photo-container:focus .overlay {
+    opacity: 0.8; } }
 
 /*# sourceMappingURL=main.css.map */
