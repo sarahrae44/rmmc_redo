@@ -353,14 +353,6 @@ h4 {
   opacity: 0.8;
 }
 
-.photo-container:active .overlay {
-  opacity: 0.8;
-}
-
-.photo-container:focus .overlay {
-  opacity: 0.8;
-}
-
 .overlay-text {
   color: #5B584F;
   font-size: 1em;
@@ -378,32 +370,6 @@ h4 {
 }
 
 .photo-container img:hover {
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
-	cursor: pointer;
-
-  text-container .description {
-    visibility: visible;
-  }
-}
-
-.photo-container img:active {
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	-o-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
-	cursor: pointer;
-
-  text-container .description {
-    visibility: visible;
-  }
-}
-
-.photo-container img:focus {
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-o-transform: scale(1.1);
@@ -560,10 +526,6 @@ input {
   border: 0;
 }
 
-.desktop-hidden {
-  display: none;
-}
-
 //media queries
 
 @media (max-width: 455.98px) {
@@ -685,10 +647,15 @@ input {
     display: none;
   }
 
-  .desktop-hidden {
-    visibility: visible;
+  .mobile-h4 {
+    padding-top: 1em;
+  }
+  
+  .mobile-p, .mobile-h4 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
   }
 }
 
 
-// end mediq queries
+// end media queries
