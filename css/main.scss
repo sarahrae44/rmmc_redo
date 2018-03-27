@@ -526,6 +526,10 @@ input {
   border: 0;
 }
 
+.desktop-hidden {
+  display: none;
+}
+
 //media queries
 
 @media (max-width: 455.98px) {
@@ -633,6 +637,7 @@ input {
   //   display: block;
   // }
 
+
   .overlay-text {
     font-size: .8em;
     line-height: 1.1em;
@@ -646,9 +651,12 @@ input {
     display: none;
   }
 
-  main {
-    // margin-bottom: 15em;
-    // flex: 1 0 auto;
+  .desktop-hidden {
+    visibility: visible;
+  }
+
+  .photo-container:focus .overlay {
+    opacity: 0.8;
   }
 }
 
