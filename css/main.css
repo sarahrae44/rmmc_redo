@@ -529,6 +529,9 @@ input:required {
 .paragraph-padding {
   padding-top: 2em; }
 
+.left-padding {
+  margin-left: 1em; }
+
 button {
   background-color: #4183ac;
   margin: 0 auto; }

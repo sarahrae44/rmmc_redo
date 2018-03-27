@@ -504,6 +504,10 @@ input:required {
   padding-top: 2em;
 }
 
+.left-padding {
+  margin-left: 1em;
+}
+
 button {
   background-color: #4183ac;
   margin: 0 auto;
@@ -650,7 +654,7 @@ input {
   .mobile-h4 {
     padding-top: 1em;
   }
-  
+
   .mobile-p, .mobile-h4 {
     text-align: center;
     color: rgba(0, 0, 0, 0.7);
